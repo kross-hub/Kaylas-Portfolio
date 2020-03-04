@@ -161,6 +161,10 @@ h3{
   font-family: Lusitana;
 }
 
+h3 a {
+  color: #FFC636;
+}
+
 h2{
   font-size: 24px;
   padding-bottom: 20px;
@@ -197,6 +201,8 @@ footer ul {
   margin-top: 100px;
   text-decoration: none;
   font-family: Lustina;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 .footernotetwo {
@@ -207,6 +213,8 @@ footer ul {
   text-decoration: none;
   font-family: Lustina;
   text align-content: left;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 .socialicons {
