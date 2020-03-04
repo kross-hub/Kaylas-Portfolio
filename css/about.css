@@ -9,6 +9,7 @@
 
 body{
   margin:0;
+  font-family: Lusitana;
 }
 
 html{
@@ -135,7 +136,7 @@ nav a:hover::before{
   margin-top: 225px;
   margin-bottom: 20px;
   font-size: 95px;
-  font-family: Raleway
+  font-family: Raleway;
 }
 
 img{
@@ -156,7 +157,7 @@ h3{
   font-size: 18px;
   padding-bottom:20px;
   padding-left: 100px;
-  font-family: Lusitana
+  font-family: Lusitana;
 }
 
 h2{

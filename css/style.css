@@ -9,10 +9,16 @@
 
 body{
  margin:0;
+ font-family: Lusitana;
 }
 
 
 /* navigation */
+.navcontainer {
+ width: 80%;
+ margin: 0 auto;
+}
+
 .header {
  background-color: #fff;
  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -97,7 +103,7 @@ h1 {
  color: #000000;
  line-height: 82px;
  font-weight: bold;
- font-family: Raleway
+ font-family: Raleway;
 }
 
 #spacingUnderHeader{
@@ -113,7 +119,7 @@ h1 {
 hr {
  margin-top: 50px;
  margin-bottom: 50px ;
- color: black;
+
 
 }
 
@@ -143,7 +149,7 @@ hr {
 
 
 h2 {
- font-size: 54px;
+ font-size: 34px;
  line-height: 64px;
  color: black ;
  text-decoration: underline;
@@ -162,7 +168,7 @@ h3 {
 
 
 p {
- font-size: 48px;
+ font-size: 24px;
  font-color:black;
  line-height: 58px;
  margin-bottom: 10px;
@@ -170,23 +176,22 @@ p {
  font-style: normal;
 }
 
-
 button {
- align: center;
- border: 1px solid #ffffff;
- background-color: #00ADA9;
- color: #474143;
- padding: 5px 5px;
- height: 50px;
- width: 300px;
-
-/* text-align: center; */
- text-decoration: none;
- font-family: Lustina;
- font-size: 24px;
- margin-top: 20px;
- margin-bottom: 20px;
- cursor: pointer;
+  align: center;
+  border-radius: 10px;
+  border-color: #00ADA9;
+  background-color: #00ADA9;
+  padding: 10px 10px;
+  height: 50px;
+  width: 300px;
+  text-decoration: none;
+  font-family: Lustina;
+  font-size: 24px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  font-weight: 300;
+  filter: drop-shadow(0 0 3px #333);
 }
 
 button:hover {
@@ -212,12 +217,14 @@ button:hover {
  margin-top: 50px;
  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  margin-bottom: 50px;
+ border-radius: 30px;
 }
 
 .projectimage {
  padding: inherit;
  background-color: #FF6444;
  height: 500px;
+ border-radius: 30px 30px 0px 0px;
 }
 
 .projectdescription {
@@ -243,7 +250,7 @@ button:hover {
 
 
 /* Footer */
-.aligncenter {
+.align {
  text-align: center;
 }
 
