@@ -36,6 +36,7 @@ header::after{
 .logo{
  float:left;
  padding: 10px 0;
+margin-bottom: 0px;
 }
 
 
@@ -54,6 +55,8 @@ nav{
   position: relative;
   padding-right: 0px;
   padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 24px;
 }
 
 #sub-navigation-home li.nav-work {
@@ -63,6 +66,8 @@ nav{
   position: relative;
   padding-right: 0px;
   padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 24px;
 }
 
 nav a{
@@ -98,12 +103,7 @@ nav a:hover::before{
  width:100%;
 }
 
-a{
- font-size: 3rem;
- text-decoration: none;
- color: #1e1f23;
- text-shadow: 1px 1px 0 rgba(255,255,255,0.4);
-}
+
 
 a:hover{
  color:black;
@@ -306,7 +306,7 @@ button:hover {
   margin-left: 130px;
 }
 
-a {
+.link a {
   font-size: 25px;
   color: #FFC636;
 }
@@ -479,10 +479,14 @@ footer ul {
  font-family: Lustina;
 }
 
-.socialicons {
+.socialicons  {
   margin: auto;
-    font-size: 2rem;
 
+}
+.socialicons a {
+color:black;
+size: large;
+font-size: 45px; 
 }
 
 .socialicons li:hover {

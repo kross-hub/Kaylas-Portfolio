@@ -57,10 +57,11 @@ header::after{
 
 .logo{
  float:left;
- width:3.5%;
+ width:50px;
  height: auto;
  padding: 10px 0;
 }
+
 
 nav{
   float:right;

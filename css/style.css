@@ -36,6 +36,8 @@ header::after{
 
 .logo{
  float:left;
+ width:3.5%;
+ height: auto;
  padding: 10px 0;
 }
 
@@ -91,6 +93,7 @@ a{
  color: #1e1f23;
  text-shadow: 1px 1px 0 rgba(255,255,255,0.4);
 }
+
 a:hover{
  color:black;
 }
