@@ -47,19 +47,22 @@ nav{
 
 }
 
-#sub-navigation-home li.nav-about a{
+#sub-navigation-home li.nav-about {
   display: inline-block;
-     width: 100px;
-     margin-right: 20px;
-     vertical-align: top;
-
+  margin-left: 25px;
+  padding-top:23px;
+  position: relative;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 
-#sub-navigation-home li.nav-work a{
+#sub-navigation-home li.nav-work {
   display: inline-block;
-     width: 100px;
-     margin-right: 20px;
-     vertical-align: top;
+  margin-left: 25px;
+  padding-top:23px;
+  position: relative;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 
 nav a{
