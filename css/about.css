@@ -15,19 +15,24 @@ body{
 
 
 /* Navbar */
+.navcontainer {
+ width: 80%;
+ margin: 0 auto;
+}
+
 .header {
-  background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position: fixed;
-  width: 100%;
-  top:0;
-  z-index: 3;
+ background-color: #fff;
+ box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+ position: fixed;
+ width: 100%;
+ top:0;
+ z-index: 3;
 }
 
 header::after{
-  content: '';
-  display:table;
-  clear: both;
+ content: '';
+ display:table;
+ clear: both;
 }
 
 .logo{
@@ -37,54 +42,77 @@ header::after{
  padding: 10px 0;
 }
 
-
 nav{
-  float:right;
+ float:right;
 }
 
-nav ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-nav li{
+
+#sub-navigation-home li.nav-about {
   display: inline-block;
   margin-left: 25px;
   padding-top:23px;
   position: relative;
+  padding-right: 0px;
+  padding-bottom:0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  line-height: 0px;
+  margin-top: 11px;
+}
+
+#sub-navigation-home li.nav-work {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top:23px;
+  position: relative;
+  padding-right: 0px;
+  padding-bottom:0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  line-height: 0px;
+  margin-top: 11px;
 }
 
 nav a{
-  color:black;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-family: Lusitana;
+ color: black;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-family: Lusitana;
+ font-size: 24px;
+
 }
 
 nav a:hover{
-  color: rgb(133, 116, 116);
+ color: rgb(133, 116, 116);
 }
 
 .topnav img{
-  width: 50px;
+ width: 50px;
 }
 
 
 nav a::before{
-  content:'';
-  display:block;
-  height: 3px;
-  width:0%;
-  background-color: black;
-  position: absolute;
-  top: 0;
-  transition:ease-in-out 200ms;
+ content:'';
+ display:block;
+ height: 3px;
+ width:0%;
+ background-color: black;
+ position: absolute;
+ top: 0;
+ transition:ease-in-out 200ms;
 }
 
 nav a:hover::before{
-  width:100%;
+ width:100%;
+}
+
+
+
+a:hover{
+ color:black;
 }
 
 
