@@ -140,6 +140,7 @@ a:hover{
 .background2 {
   width:100%;
   background-color: #EDEDED;
+  padding-top: 50px;
 }
 
 .aligncenter {
@@ -147,17 +148,25 @@ a:hover{
 }
 
 
-button {
+.overview {
+  padding-top: 80px;
+}
+
+.button {
+  display:inline-block;
   align: center;
   border-radius: 10px;
   border-color: #00ADA9;
   background-color: #00ADA9;
-  padding: 10px 10px;
+  padding: 10px 10px ;
+  padding-top: 10px;
+  padding-bottom: 10px;
   height: 50px;
   width: 300px;
   text-decoration: none;
   font-family: Lustina;
   font-size: 24px;
+  color: black;
   margin-top: 100px;
   margin-bottom: 100px;
   cursor: pointer;
@@ -165,12 +174,14 @@ button {
   filter: drop-shadow(0 0 3px #333);
 }
 
-button:hover {
+.button:hover {
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
   -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
 }
+
+
 
 
 
@@ -192,12 +203,12 @@ button:hover {
     text-decoration: underline;
     margin-bottom: 20px;
     margin-top: 75px;
-
     border:1px solid #FFC636;
     background-color: #FFC636;
     margin-right: 1250px;
     padding-left: 160px;
     border-radius: 0px 30px 30px 0px;
+    margin-top: 100px;
 
   }
 
@@ -418,6 +429,7 @@ button:hover {
   margin-top: 50px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
+  padding-top: 80px;
 }
 
 

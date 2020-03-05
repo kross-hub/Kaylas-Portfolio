@@ -128,7 +128,7 @@ hr {
 
 .introtwo {
  font-size:60px;
- margin-bottom: 125px;
+ margin-bottom: 5px;
  font-family: Raleway;
 }
 
@@ -179,7 +179,8 @@ p {
  font-style: normal;
 }
 
-button {
+.button {
+  display:inline-block;
   align: center;
   border-radius: 10px;
   border-color: #00ADA9;
@@ -191,13 +192,14 @@ button {
   font-family: Lustina;
   font-size: 24px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   cursor: pointer;
   font-weight: 300;
   filter: drop-shadow(0 0 3px #333);
+  text-align: center;
 }
 
-button:hover {
+.button:hover {
  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -283,12 +285,16 @@ footer ul {
 
 .socialicons {
   margin: auto;
-    font-size: 2rem;
+  font-size: 2rem;
 
 }
 
 .socialicons li:hover {
  color: grey;
+}
+
+footer {
+  padding-bottom: 40px;
 }
 
 /* Mobile Specs*/
