@@ -10,6 +10,7 @@
 body{
  margin:0;
  font-family: Lusitana;
+ color: #474143;
 }
 
 
@@ -49,7 +50,7 @@ nav{
 nav li{
  display: inline-block;
  margin-left: 25px;
- padding-top:23px;
+ padding-top: 23px;
  position: relative;
 
 }
@@ -88,7 +89,7 @@ nav a:hover::before{
 }
 
 a{
- font-size: 3rem;
+ font-size: 24px;
  text-decoration: none;
  color: #1e1f23;
  text-shadow: 1px 1px 0 rgba(255,255,255,0.4);
@@ -103,14 +104,14 @@ a:hover{
 /* Heading */
 h1 {
  font-size: 72px;
- color: #000000;
+ color: #474143;
  line-height: 82px;
- font-weight: bold;
+ font-weight: 700;
  font-family: Raleway;
 }
 
 #spacingUnderHeader{
- margin-top: 225px;
+ margin-top: 175px;
 }
 
 .introone {
@@ -122,8 +123,6 @@ h1 {
 hr {
  margin-top: 50px;
  margin-bottom: 50px ;
-
-
 }
 
 .introtwo {
@@ -154,9 +153,9 @@ hr {
 h2 {
  font-size: 34px;
  line-height: 64px;
- color: black ;
+ color: #474143;
  text-decoration: underline;
- font-weight: bold;
+ font-weight: 700;
  font-family: Lusitana;
  margin-bottom: 20px;
 }
@@ -172,7 +171,6 @@ h3 {
 
 p {
  font-size: 24px;
- font-color:black;
  line-height: 58px;
  margin-bottom: 10px;
  font-family: Lusitana;
@@ -194,9 +192,10 @@ p {
   margin-top: 100px;
   margin-bottom: 50px;
   cursor: pointer;
-  font-weight: 300;
+  font-weight: 400;
   filter: drop-shadow(0 0 3px #333);
   text-align: center;
+  color: white;
 }
 
 .button:hover {
@@ -285,8 +284,8 @@ footer ul {
 
 .socialicons {
   margin: auto;
-  font-size: 2rem;
-
+  font-size: 45px;
+  color: #474143;
 }
 
 .socialicons li:hover {
@@ -295,6 +294,11 @@ footer ul {
 
 footer {
   padding-bottom: 40px;
+}
+
+.socialicons a i {
+color: black;
+font-size: 45px;
 }
 
 /* Mobile Specs*/
@@ -340,4 +344,6 @@ p{
     margin: auto;
       font-size: 2rem;
  }
+
+
 }

@@ -10,6 +10,7 @@
 body{
   margin:0;
   font-family: Lusitana;
+  color:#474143;
 }
 
 html{
@@ -24,29 +25,6 @@ html{
   width: 100%;
   top:0;
   z-index: 3;
-}
-
-
-
-.Sectionone {
-  border-left: 2px solid black;
-  margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-.Sectiontwo {
-  border-left: 2px solid black;
-  margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-.Sectionthree {
-  border-left: 2px solid black;
-  margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
 }
 
 header::after{
@@ -140,6 +118,27 @@ nav a:hover::before{
   font-family: Raleway;
 }
 
+.Sectionone {
+  border-left: 2px solid black;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.Sectiontwo {
+  border-left: 2px solid black;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.Sectionthree {
+  border-left: 2px solid black;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
 img{
 	max-width: 64%;
   max-height: auto;
@@ -225,7 +224,13 @@ footer ul {
 .socialicons {
    margin: auto;
      font-size: 45px;
+     color:#474143;
 
+}
+
+.socialicons a i {
+color:#black;
+font-size: 45px;
 }
 
 .socialicons li:hover {
