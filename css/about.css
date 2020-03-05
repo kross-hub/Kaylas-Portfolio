@@ -13,9 +13,6 @@ body{
   color:#474143;
 }
 
-html{
-  font-size: 10px;
-}
 
 /* Navbar */
 .header {
@@ -35,7 +32,7 @@ header::after{
 
 .logo{
  float:left;
- width:50px;
+ width:3.5%;
  height: auto;
  padding: 10px 0;
 }
@@ -63,6 +60,7 @@ nav a{
   text-decoration: none;
   text-transform: uppercase;
   font-size: 24px;
+  font-family: Lusitana;
 }
 
 nav a:hover{
