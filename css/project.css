@@ -10,6 +10,7 @@
 body {
  margin-top:80px;
  color: #474143;
+ font-family: Lusitana;
 }
 
 
@@ -24,8 +25,8 @@ body {
  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
  position: fixed;
  width: 100%;
- top:0;
- z-index: 3;
+ top:0px;
+ z-index: 3px;
 }
 
 header::after{
@@ -190,7 +191,7 @@ a:hover{
   h1 {
     font-size: 72px;
     color: #474143;
-    line-height:105px;
+    line-height:82px;
     font-weight: bold;
     font-family: Raleway;
     margin-top: 150px;
@@ -209,9 +210,8 @@ hr{
     text-decoration: underline;
     margin-bottom: 20px;
     margin-top: 75px;
-    border:1px solid #FFC636;
     background-color: #FFC636;
-    margin-right: 1250px;
+    margin-right: 600px;
     padding-left: 160px;
     border-radius: 0px 30px 30px 0px;
     margin-top: 100px;
