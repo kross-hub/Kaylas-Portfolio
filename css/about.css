@@ -252,7 +252,7 @@ footer ul {
 }
 
 .socialicons a i {
-color:#black;
+color: black;
 font-size: 45px;
 }
 
@@ -269,8 +269,8 @@ font-size: 45px;
 .post-body{
   margin-top: 225px;
   margin-bottom: 20px;
-  font-size:72px;
-  font-family: Raleway
+  font-size:48px;
+  font-family: Raleway;
 }
 
 img {
@@ -278,6 +278,13 @@ img {
   max-width: 400px;
   max-height: 400px;
 
+}
+
+p{
+  font-size:18px;
+  line-height: 28px;
+  font-family: Lusitana;
+  margin-top: 60px;
 }
 
 .Sectionone {
@@ -301,6 +308,32 @@ img {
   margin-left: 0px;
 }
 
+.footernote {
+  font-size: 32px;
+  margin-top: 100px;
+  text-decoration: none;
+  font-family: Lustina;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
 
+.footernotetwo {
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 25px;
+  margin-bottom: 75px;
+  text-decoration: none;
+  font-family: Lustina;
+  text align-content: left;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.socialicons  {
+  margin: auto;
+  width:80%;
+  text-align: center;
+
+}
 
 }

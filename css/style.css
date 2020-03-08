@@ -322,18 +322,61 @@ font-size: 45px;
 
 @media screen and (max-width: 575px){
 
-h2{
- font-size: 48px;
-}
+  .container {
+   width: 80%;
+   margin: 0 auto;
+   display: block;
+  }
+
+  #spacingUnderHeader{
+   margin-top: 200px;
+  }
 
 p{
- font-size: 36px;
+ font-size: 18px;
+ line-height: 28px;
 }
+
 .projectimage{
  height:auto;
  width: auto;
  margin-bottom:auto;
  padding-bottom: 50px
+}
+
+h1 {
+ font-size: 42px;
+ color: #474143;
+ line-height: 52px;
+ font-weight: 700;
+ font-family: Raleway;
+}
+
+h2 {
+ font-size: 34px;
+ line-height: 44px;
+ color: #474143;
+ text-decoration: underline;
+ font-weight: 700;
+ font-family: Lusitana;
+ margin-bottom: 0px;
+}
+
+.introone {
+ font-size: 42px;
+ font-family: Raleway;
+
+}
+
+hr {
+ margin-top: 34px;
+ margin-bottom: 25px ;
+}
+
+.introtwo {
+ font-size:24px;
+ margin-bottom: 0px;
+ font-family: Raleway;
 }
 
 .pro1 {
@@ -344,23 +387,34 @@ p{
  align-items: center
 }
 
-.introone {
- font-size: 60px;
-}
 
- .introtwo {
-   font-size:48px;
-   margin-bottom: 80px;
- }
-
- #spacingUnderHeader{
-   margin-top: 200px;
- }
 
  .socialicons {
     margin: auto;
       font-size: 2rem;
  }
 
+ .footernote {
+  font-size: 32px;
+  margin-top: 25px;
+  text-decoration: none;
+  font-family: Lustina;
+ }
+
+ .footernotetwo {
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 25px;
+  margin-bottom: 75px;
+  text-decoration: none;
+  font-family: Lustina;
+ }
+
+ .socialicons  {
+   margin: auto;
+   width:80%;
+   text-align: center;
+
+ }
 
 }
