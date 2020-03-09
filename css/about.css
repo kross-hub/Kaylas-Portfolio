@@ -137,7 +137,7 @@ a:hover{
 .post-body{
   margin-top: 225px;
   margin-bottom: 20px;
-  font-size: 95px;
+  font-size: 72px;
   font-family: Raleway;
 }
 
@@ -261,6 +261,7 @@ font-size: 45px;
 }
 
 @media screen and (max-width: 575px){
+
 .container {
   display:block;
   grid-template-columns: 100% 100%;
