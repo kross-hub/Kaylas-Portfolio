@@ -269,8 +269,7 @@ hr{
     padding-right: 70px;
     margin-bottom: 20px;
     margin-left: 20px;
-
-  }
+}
 
 .finalprototype {
     width: 95%;
@@ -878,10 +877,17 @@ font-size: 45px;
      filter: drop-shadow(0 0 5px #333);
    }
 
-   .socialicons {
-      margin: auto;
-        font-size: 2rem;
+   .socialicons  {
+     margin: auto;
+     width:80%;
+     text-align: center;
+
    }
+    .socialicons li {
+      margin: 0;
+      padding: 0;
+    }
+
 
    .footernote {
     font-size: 32px;
@@ -899,15 +905,6 @@ font-size: 45px;
     font-family: Lusitana;
    }
 
-   .socialicons  {
-     margin: auto;
-     width:80%;
-     text-align: center;
 
-   }
-   .container2 {
-    width: 80%;
-    margin: 0 auto;
-    display: block;
-   }
+
 }
