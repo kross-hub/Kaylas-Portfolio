@@ -26,7 +26,7 @@ body {
  position: sticky;
  width: 100%;
  top:0px;
- z-index: 3px;
+ z-index: 3;
 }
 
 header::after{
@@ -419,7 +419,7 @@ hr{
 
 .background1 {
   width:100%;
-  background-color: #FF6444;
+  background-color: #FA846C;
 }
 
 .Painpoint-4 {
@@ -488,7 +488,7 @@ footer ul {
  font-size: 48px;
  margin-top: 100px;
  text-decoration: none;
- font-family: Lustina;
+ font-family: Lusitina;
 }
 
 .footernotetwo {
@@ -497,7 +497,7 @@ footer ul {
  margin-top: 25px;
  margin-bottom: 75px;
  text-decoration: none;
- font-family: Lustina;
+ font-family: Lusitana;
 }
 
 .socialicons  {
@@ -539,6 +539,10 @@ font-size: 45px;
 
    }
 
+   .align {
+    text-align: center;
+   }
+
 
    .background2 {
      width:100%;
@@ -563,7 +567,7 @@ font-size: 45px;
      height: 50px;
      width: 300px;
      text-decoration: none;
-     font-family: Lustina;
+     font-family: Lusitina;
      font-size: 24px;
      color: black;
      margin-top: 100px;
@@ -824,7 +828,7 @@ font-size: 45px;
 
    .background1 {
      width:100%;
-     background-color: #FF6444;
+     background-color: rbga(255, 100, 68, 89);
    }
 
    .Painpoint-4 {
@@ -874,10 +878,36 @@ font-size: 45px;
      filter: drop-shadow(0 0 5px #333);
    }
 
+   .socialicons {
+      margin: auto;
+        font-size: 2rem;
+   }
+
+   .footernote {
+    font-size: 32px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-family: Lusitana;
+   }
+
+   .footernotetwo {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    text-decoration: none;
+    font-family: Lusitana;
+   }
+
    .socialicons  {
      margin: auto;
      width:80%;
      text-align: center;
 
+   }
+   .container2 {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
    }
 }
