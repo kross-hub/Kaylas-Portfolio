@@ -372,6 +372,7 @@ h2 {
 
 .introone {
  font-size: 48px;
+ line-height: 58px;
  font-family: Raleway;
 
 }
@@ -384,7 +385,7 @@ hr {
 .introtwo {
  font-size:36px;
  margin-bottom: 0px;
- line-height: 70px;
+ line-height: 46px;
  font-family: Raleway;
 }
 
@@ -435,12 +436,6 @@ hr {
    margin-bottom:auto;
    padding-bottom: 75px;
   }
-
-
-
-
-
-
 
 
 }
