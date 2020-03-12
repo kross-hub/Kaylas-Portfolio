@@ -668,13 +668,6 @@ font-size: 45px;
        margin-bottom: 30px;
    }
 
-     li {
-       font-size: 18px;
-       line-height: 28px;
-       padding-right: 100px;
-       margin-bottom: 50px;
-
-     }
 
    .finalprototype {
        width: 100%;
@@ -741,7 +734,7 @@ font-size: 45px;
 
 
    .Userpersonas {
-     width:400px;
+     width:300px;
      height: auto;
      filter: drop-shadow(0 0 5px #333);
 
@@ -904,6 +897,150 @@ font-size: 45px;
     text-decoration: none;
     font-family: Lusitana;
    }
+}
+
+@media screen and (min-width: 600px) and (max-width:1024px){
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+
+  }
+
+  .container4 {
+    width: 80%;
+    margin: 0 auto;
+    Display:block;
+  }
+
+  .container5 {
+    width: 80%;
+    margin: 0 auto;
+    display:block;
+  }
+
+  .Styleguide {
+    padding-left: 50px;
+
+  }
+
+  .align {
+   text-align: center;
+  }
+
+  .background2 {
+    width:100%;
+    background-color: #EDEDED;
+    margin-top: 0px;
+    display: block;
+  }
+
+  .sectionone {
+    border-left: 2px solid black;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top:   50px;
+  }
+
+  .sectiontwo {
+    border-left: 2px solid black;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top:   50px;
+  }
+
+  .sectionthree {
+    border-left: 2px solid black;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top:   50px;
+  }
+
+  .sectionfour {
+    border-left: 2px solid black;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top:   50px;
+  }
+
+  .sectionfive {
+    border-left: 2px solid black;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top:   50px;
+  }
+
+  li {
+    font-size: 18px;
+    line-height: 24px;
+    padding-right: 70px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+  h1 {
+    font-size: 60px;
+    color: #474143;
+    line-height:70px;
+    font-weight: 1000;
+    font-family: Raleway;
+    margin-top: 0px;
+    padding-top: 100px;
+  }
+
+  h2 {
+    font-size: 48px;
+    color: #hsla(360, 100%, 100%, 0.5);
+    line-height: 58px;
+    font-weight: 900;
+    font-family: Raleway;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    margin-top: 75px;
+    background-color: #FFC636;
+    margin-right: 300px;
+    padding-left: 50px;
+    border-radius: 0px 30px 30px 0px;
+    margin-top: 100px;
+
+  }
+
+  h4 {
+margin-top: 50px;
+
+  }
+
+  .finalprototype {
+      width: 100%;
+      height: auto;
+      margin-top: 100px;
+      margin-left: 0px;
+      filter: drop-shadow(0 0 5px #333);
+  }
+
+  .Userpersonas {
+    width:600px;
+    height: auto;
+    filter: drop-shadow(0 0 5px #333);
+
+  }
+
+
+
+
+
+
 
 
 

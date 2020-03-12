@@ -239,7 +239,7 @@ footer ul {
   margin-top: 25px;
   margin-bottom: 75px;
   text-decoration: none;
-  font-family: Lusitina;
+  font-family: Lusitana;
   text align-content: left;
   padding-bottom: 0px;
   padding-left: 0px;
@@ -277,9 +277,8 @@ font-size: 45px;
 
 img {
   padding-left: 0%;
-  max-width: 400px;
-  max-height: 400px;
-
+  max-height: 900px;
+  max-width: auto;
 }
 
 p{
@@ -337,5 +336,50 @@ p{
   text-align: center;
 
 }
+
+}
+@media screen and (min-width: 600px) and (max-width:1024px){
+
+  .Sectionone {
+    border-left: 2px solid black;
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+
+  .Sectiontwo {
+    border-left: 2px solid black;
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+
+  .Sectionthree {
+    border-left: 2px solid black;
+    margin-bottom: 50px;
+    margin-right: 0px;
+  }
+
+  h3{
+    font-size: 18px;
+    padding-bottom:20px;
+    padding-left: 25px;
+    font-family: Lusitana;
+  }
+
+  h3 a {
+    color: #FFC636;
+  }
+
+  h2{
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-family: Raleway;
+    font-weight: bold;
+  }
+
+
+
+
+
 
 }
