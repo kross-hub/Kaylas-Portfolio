@@ -3,14 +3,15 @@
 }
 
 .container2 {
-  width: 80%;
-  margin: 0 auto;
+  width: 70%;
+margin-left: 170px;
+display: inline-block;
 }
 
 body {
  margin-top:0px;
- color: #474143;
- font-family: Lusitana;
+ color: #332E2F;
+ font-family: Raleway;
 }
 
 
@@ -118,12 +119,19 @@ a:hover{
 
 /* body */
 
-.container{
+.container {
   width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template-columns:50% 50%;
 
+}
+
+.container3 {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:50% 10% 50%;
 }
 
 .container4 {
@@ -191,10 +199,10 @@ a:hover{
 
   h1 {
     font-size: 60px;
-    color: #474143;
+    color: #332E2F;
     line-height:70px;
     font-weight: bold;
-    font-family: Raleway;
+    font-family: Lusitina;
     margin-top: 150px;
   }
 
@@ -205,10 +213,10 @@ hr{
 
   h2 {
     font-size: 48px;
-    color: #hsla(360, 100%, 100%, 0.5);
+    color: #332E2F;
     line-height: 58px;
     font-weight: bold;
-    font-family: Raleway;
+    font-family: Lusitana;
     text-decoration: underline;
     margin-bottom: 20px;
     margin-top: 75px;
@@ -223,29 +231,29 @@ hr{
 
   h3 {
     font-size: 36px;
-    color: #hsla(360, 100%, 100%, 0.5);
+    color: #332E2F;
     line-height:46px;
     font-weight: 600;
-    font-family: Raleway;
+    font-family:Lusitana;
     margin-bottom:50px;
     margin-top: 50px;
   }
 
   h4 {
     font-size: 24px;
-    color: #hsla(360, 100%, 100%, 0.5);
+    color: #332E2F;
     line-height:34px;
     font-weight: 600;
-    font-family: Raleway;
+    font-family: Lusitana;
     margin-bottom: 10px;
   }
 
   h5 {
     font-size: 21px;
-    color: #hsla(360, 100%, 100%, 0.5);
+    color: #332E2F;
     line-height:31px;
     font-weight: 600;
-    font-family: Raleway;
+    font-family: Lusitana;
     margin-bottom:30px
   }
 
@@ -258,10 +266,15 @@ hr{
 }
 
   p {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 35px;
-    font-family: Lusitana;
+    font-family: Raleway;
     margin-bottom: 40px;
+    text-align: left;
+}
+
+.paddingparagraph{
+  padding-right: 70px;
 }
 
   li {
@@ -275,7 +288,7 @@ hr{
 .finalprototype {
     width: 95%;
     height:auto;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: 130px;
     filter: drop-shadow(0 0 5px #333);
 }
@@ -333,10 +346,58 @@ hr{
 
 
 .Userpersonas {
-  width:600px;
+  width:650px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
+  margin-left: 10px;
+}
 
+.Userpersonas1 {
+  width:650px;
+  height: auto;
+  filter: drop-shadow(0 0 5px #333);
+  margin-left: 185px;
+}
+
+.Userflows {
+  width:1000px;
+  height: auto;
+  filter: drop-shadow(0 0 5px #333);
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.Userflows2 {
+  width:auto;
+  height: 250px;
+  filter: drop-shadow(0 0 5px #333);
+}
+
+.pinterest {
+  width:auto;
+  height: 250px;
+  filter: drop-shadow(0 0 5px #333);
+  margin-left: 150px;
+}
+
+.dropbox {
+  width:auto;
+  height: 250px;
+  filter: drop-shadow(0 0 5px #333);
+  margin-bottom: 50px;
+  margin-left: 150px;
+}
+
+.googledrive {
+  width:auto;
+  height: 250px;
+  filter: drop-shadow(0 0 5px #333);
+  margin-left: 150px;
+}
+
+.Competitors {
+  margin-left: 150px;
+  margin-top: 50px;
 }
 
 .Changes-One-Mobile {
@@ -419,7 +480,7 @@ hr{
 
 .background1 {
   width:100%;
-  background-color: #FA846C;
+  background-color: #FF6444;
 }
 
 .Painpoint-4 {
@@ -518,11 +579,23 @@ font-size: 45px;
  @media screen and (max-width: 575px){
 
 
-   .container{
+   .container {
      width: 80%;
      margin: 0 auto;
      display: block;
 
+   }
+
+   .container2 {
+   width: 80%;
+   margin-left: 0 auto;
+   display: block;
+   }
+
+   .container3 {
+     width: 80%;
+     margin: 0 auto;
+     display: block;
    }
 
    .container4 {
@@ -537,6 +610,10 @@ font-size: 45px;
      margin: 0 auto;
      display: block;
 
+   }
+
+   .paddingparagraph{
+     padding-right: 0px;
    }
 
    .align {
@@ -735,12 +812,62 @@ font-size: 45px;
 
 
    .Userpersonas {
-     width:300px;
+     width:400px;
      height: auto;
      filter: drop-shadow(0 0 5px #333);
+     margin-left: 0px;
+}
 
-   }
+.Userpersonas1 {
+  width:400px;
+  height: auto;
+  filter: drop-shadow(0 0 5px #333);
+  margin-left: 0px;
+}
 
+.pinterest {
+  width:auto;
+  height: 250px;
+  filter: drop-shadow(0 0 5px #333);
+  margin-left: 0px;
+}
+
+.dropbox {
+  width:auto;
+  height: 250px;
+  filter: drop-shadow(0 0 5px #333);
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.googledrive {
+  width:auto;
+  height: 250px;
+  filter: drop-shadow(0 0 5px #333);
+  margin-left: 0px;
+}
+
+.Competitors {
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+.Userflows {
+  width:400px;
+  height: auto;
+  filter: drop-shadow(0 0 5px #333);
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.Userflows2 {
+  width:400px;
+  height: auto;
+  filter: drop-shadow(0 0 5px #333);
+}
+
+
+}
    .Changes-One-Mobile {
      width: 80%;
      height: auto;
@@ -900,13 +1027,30 @@ font-size: 45px;
    }
 }
 
-@media screen and (min-width: 600px) and (max-width:1024px){
+@media screen and (min-width: 576px) and (max-width:1024px){
 
   .container{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: block;
 
+  }
+
+  .container2 {
+    width: 80%;
+    margin-left:30px;
+    display: block;
+
+  }
+
+  .paddingparagraph{
+    padding-right: 0px;
+  }
+
+  .container3 {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
   }
 
   .container4 {
@@ -1031,18 +1175,60 @@ margin-top: 50px;
   }
 
   .Userpersonas {
-    width:600px;
+    width:500px;
     height: auto;
     filter: drop-shadow(0 0 5px #333);
+    margin-left: 0px;
+  }
 
+  .Userpersonas1 {
+    width:500px;
+    height: auto;
+    filter: drop-shadow(0 0 5px #333);
+    margin-left: 0px;
   }
 
 
 
+  .pinterest {
+    width:auto;
+    height: 150px;
+    filter: drop-shadow(0 0 5px #333);
+    margin-left: 0px;
+  }
 
+  .dropbox {
+    width:auto;
+    height: 150px;
+    filter: drop-shadow(0 0 5px #333);
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
 
+  .googledrive {
+    width:auto;
+    height: 150px;
+    filter: drop-shadow(0 0 5px #333);
+    margin-left: 0px;
+  }
 
+  .Competitors {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
 
+  .Userflows {
+    width:400px;
+    height: auto;
+    filter: drop-shadow(0 0 5px #333);
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
 
+  .Userflows2 {
+    width:400px;
+    height: auto;
+    filter: drop-shadow(0 0 5px #333);
+  }
 
 }
