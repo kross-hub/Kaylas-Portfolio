@@ -493,29 +493,23 @@ li {
 
 
 .Wireframe {
-  width: 500px;
+  width: 490px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
 }
 
 .Wireframe2 {
-  width:500px;
+  width:490px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
 }
 
 .Wireframe3 {
-  width:500px;
+  width:490px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
 }
 
-.video {
-  width:800px;
-  height:auto;
-  text-align: center;
-
-}
 
 .Changes-One-Mobile {
   width: 100%;
