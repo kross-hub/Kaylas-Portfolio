@@ -3,9 +3,10 @@
 }
 
 .container2 {
-  width: 70%;
-margin-left: 170px;
-display: inline-block;
+width: 60%;
+margin:0 auto;
+display:block;
+text-align: center;
 }
 
 body {
@@ -120,10 +121,10 @@ a:hover{
 /* body */
 
 .container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns:50% 50%;
+  grid-template-columns:60% 40%;
 
 }
 
@@ -131,30 +132,70 @@ a:hover{
   width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns:50% 10% 50%;
+  grid-template-columns:40% 10% 40%;
 }
 
 .container4 {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns:40% 20% 40%;
+  grid-template-columns:50% 50%;
+  text-align: center;
 
 }
 
 .container5 {
   width: 80%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns:25% 25% 25% 25%;
+  display: flex;
+  justify-content: space-around;
 
 }
 
+.container6 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-right: 50px;
+  margin-left: 100px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+
+}
+
+/* container for header of shelfspace */
+.container7 {
+width: 80%;
+margin: 0 auto;
+display: grid;
+grid-template-columns:60% 40%;
+
+}
+
+.container8{
+  width:80%;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.container10 {
+  width:80%;
+  margin: 0 auto;
+
+}
 
 .background2 {
   width:100%;
   background-color: #EDEDED;
   padding-top: 50px;
+}
+
+.singlelist {
+  width:60%;
+  margin: 0 auto;
+  text-align:left;
 }
 
 .aligncenter {
@@ -273,29 +314,38 @@ hr{
     text-align: left;
 }
 
-.paddingparagraph{
-  padding-right: 70px;
-}
 
-  li {
+
+li {
     font-size: 18px;
     line-height: 34px;
-    padding-right: 70px;
+    padding-right: 0px;
     margin-bottom: 20px;
-    margin-left: 20px;
 }
 
 .finalprototype {
     width: 95%;
     height:auto;
     margin-top: 250px;
-    margin-left: 130px;
+    margin-left: 75px ;
     filter: drop-shadow(0 0 5px #333);
 }
 
 .somePadding{
   padding-right: 30px;
 
+}
+
+.border {
+ border:5px solid #00ADA9;
+ border-spacing: inherit;
+ padding-left: 25px;
+ padding-right: 25px;
+ margin-right: 50px;
+ margin-left: 50px;
+ margin-bottom: 75px;
+ padding-top: 25px;
+ padding-bottom: 25px;
 }
 
 .sectionone {
@@ -343,20 +393,66 @@ hr{
   font-size: 24px;
   color: #FFC636;
 }
+/* competitive analysis websites pics */
+.websites {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  }
+
+.websitestitles {
+  width: 93%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+
+  }
+
+  .spacing {
+    margin-left: 70px;
+  }
+
+.spacing2 {
+  margin-left: 0;
+}
+
+.twocolumns {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:50% 50%;
+  margin-top: 100px;
+}
+
+.goalsmargin {
+  padding-left: 85px;
+}
+
+.flowspace {
+  margin-top: 150px;
+}
+
+.margintopvisual{
+  margin-top: 50px;
+}
 
 
 .Userpersonas {
-  width:650px;
+  width:100%;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
-  margin-left: 10px;
+  padding-left: 75px;
 }
 
 .Userpersonas1 {
-  width:650px;
+  width:100%;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
-  margin-left: 185px;
+  padding-right: 75px;
 }
 
 .Userflows {
@@ -377,31 +473,52 @@ hr{
   width:auto;
   height: 250px;
   filter: drop-shadow(0 0 5px #333);
-  margin-left: 150px;
 }
 
 .dropbox {
   width:auto;
   height: 250px;
   filter: drop-shadow(0 0 5px #333);
-  margin-bottom: 50px;
-  margin-left: 150px;
 }
 
 .googledrive {
   width:auto;
   height: 250px;
   filter: drop-shadow(0 0 5px #333);
-  margin-left: 150px;
 }
 
 .Competitors {
-  margin-left: 150px;
-  margin-top: 50px;
+  margin-top: 25px;
+}
+
+
+.Wireframe {
+  width: 500px;
+  height: auto;
+  filter: drop-shadow(0 0 5px #333);
+}
+
+.Wireframe2 {
+  width:500px;
+  height: auto;
+  filter: drop-shadow(0 0 5px #333);
+}
+
+.Wireframe3 {
+  width:500px;
+  height: auto;
+  filter: drop-shadow(0 0 5px #333);
+}
+
+.video {
+  width:800px;
+  height:auto;
+  text-align: center;
+
 }
 
 .Changes-One-Mobile {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 10px;
@@ -411,7 +528,7 @@ hr{
 }
 
 .Solution-Mobile {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 10px;
@@ -422,7 +539,7 @@ hr{
 
 
 .Changes-Two-Mobile {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 50px;
@@ -431,7 +548,7 @@ hr{
 }
 
 .Solution-Two-Mobile {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 50px;
@@ -441,7 +558,7 @@ hr{
 
 
 .Changes-Three-Mobile {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 50px;
@@ -450,7 +567,7 @@ hr{
 }
 
 .Solution-Three-Mobile {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 50px;
@@ -459,13 +576,12 @@ hr{
 }
 
 .Styleguide {
-  width: 80%;
+  width: 100%;
   height: 80%;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
-  padding-left: 300px;
 
 }
 
@@ -484,7 +600,7 @@ hr{
 }
 
 .Painpoint-4 {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 50px;
@@ -493,7 +609,7 @@ hr{
 }
 
 .Solution-4 {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 50px;
@@ -504,7 +620,7 @@ hr{
 
 
 .Painpoint5mobile {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 50px;
@@ -513,7 +629,7 @@ hr{
 }
 
 .Solution5mobile {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 50px;
@@ -522,7 +638,7 @@ hr{
 }
 
 .Solution-6 {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
   margin-top: 50px;
@@ -546,10 +662,12 @@ footer ul {
 }
 
 .footernote {
- font-size: 48px;
- margin-top: 100px;
- text-decoration: none;
- font-family: Lusitina;
+  font-size: 48px;
+  margin-top: 100px;
+  text-decoration: none;
+  font-family: Lusitana;
+  padding-bottom: 0px;
+  rpadding-left: 0px;
 }
 
 .footernotetwo {
@@ -933,7 +1051,6 @@ font-size: 45px;
      margin-top: 50px;
      margin-bottom: 50px;
      filter: drop-shadow(0 0 5px #333);
-     padding-left: 50px;
 
    }
 
@@ -1000,7 +1117,7 @@ font-size: 45px;
 
    .socialicons  {
      margin: auto;
-     width:80%;
+     width:50%;
      text-align: center;
 
    }
@@ -1011,7 +1128,7 @@ font-size: 45px;
 
 
    .footernote {
-    font-size: 32px;
+    font-size: 48px;
     margin-top: 25px;
     text-decoration: none;
     font-family: Lusitana;
