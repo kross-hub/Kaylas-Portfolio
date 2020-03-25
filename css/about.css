@@ -340,6 +340,11 @@ p{
 }
 @media screen and (min-width: 600px) and (max-width:1024px){
 
+  .container {
+    display:block;
+    grid-template-columns: 100% 100%;
+  }
+
   .Sectionone {
     border-left: 2px solid black;
     margin-bottom: 50px;
