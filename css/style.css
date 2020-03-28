@@ -76,6 +76,20 @@ nav{
   margin-top: 11px;
 }
 
+#sub-navigation-home li.nav-email {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top:23px;
+  position: relative;
+  padding-right: 0px;
+  padding-bottom:0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  font-size: 34px;
+  line-height: 0px;
+  margin-top: 11px;
+}
+
 nav a{
  color: black;
  text-decoration: none;
@@ -115,6 +129,9 @@ a:hover{
  color:black;
 }
 
+.current {
+color: #00A3A0;
+  }
 
 
 /* Heading */
