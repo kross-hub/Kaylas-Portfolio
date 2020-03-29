@@ -135,7 +135,7 @@ a:hover{
 color: #00A3A0;
   }
 
-}
+
 
 /* body */
 
@@ -229,7 +229,6 @@ grid-template-columns:60% 40%;
 
 .button {
   display:inline-block;
-  align: center;
   border-radius: 10px;
   border-color: #00ADA9;
   background-color: #00ADA9;
@@ -260,7 +259,6 @@ grid-template-columns:60% 40%;
 
 .buttonone {
   display:inline-block;
-  align: center;
   border-radius: 10px;
   border-color: white;
   background-color: white;
@@ -352,9 +350,8 @@ hr{
   hr {
     margin-bottom: 30px;
     margin-right: 60px;
-    border-color: #474143
-    color:#474143;
-
+    border-color: #474143;
+    color: #474143;
 }
 
   p {
@@ -715,7 +712,7 @@ footer ul {
   text-decoration: none;
   font-family: Lusitana;
   padding-bottom: 0px;
-  rpadding-left: 0px;
+  padding-left: 0px;
 }
 
 .footernotetwo {
@@ -724,7 +721,7 @@ footer ul {
  margin-top: 25px;
  margin-bottom: 75px;
  text-decoration: none;
- font-family: Lusitana;
+ font-family: Raleway;
 }
 
 .socialicons  {
@@ -900,7 +897,7 @@ hr{
   hr {
     margin-bottom: 30px;
     margin-right: 60px;
-    border-color: #474143
+    border-color: #474143;
     color:#474143;
 
 }
@@ -1093,7 +1090,7 @@ display:none;
  margin-top: 25px;
  margin-bottom: 75px;
  text-decoration: none;
- font-family: Lusitana;
+ font-family: Raleway;
 }
 
 .socialicons  {
@@ -1260,7 +1257,7 @@ hr{
   hr {
     margin-bottom: 30px;
     margin-right: 60px;
-    border-color: #474143
+    border-color: #474143;
     color:#474143;
 
 }
@@ -1453,7 +1450,7 @@ display:none;
  margin-top: 25px;
  margin-bottom: 75px;
  text-decoration: none;
- font-family: Lusitana;
+ font-family: Raleway;
 }
 
 .socialicons  {

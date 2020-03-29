@@ -180,8 +180,8 @@ a:hover{
 }
 
 img{
-	max-width: 64%;
-  max-height: auto;
+	max-width: 300px;
+  max-height: 300px;
   padding-left: 50px;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -256,8 +256,7 @@ footer ul {
   margin-top: 25px;
   margin-bottom: 75px;
   text-decoration: none;
-  font-family: Lusitana;
-  text align-content: left;
+  font-family: Raleway;
   padding-bottom: 0px;
   padding-left: 0px;
 }
@@ -294,8 +293,7 @@ font-size: 45px;
 
 img {
   padding-left: 0%;
-  max-height: 900px;
-  max-width: auto;
+
 }
 
 p{
@@ -341,8 +339,7 @@ p{
   margin-top: 25px;
   margin-bottom: 75px;
   text-decoration: none;
-  font-family: Lusitana;
-  text align-content: left;
+  font-family: Raleway;
   padding-bottom: 0px;
   padding-left: 0px;
 }

@@ -214,7 +214,6 @@ p {
 
 .button {
   display:inline-block;
-  align: center;
   border-radius: 10px;
   border-color: #00ADA9;
   background-color: #00ADA9;
@@ -319,7 +318,7 @@ footer ul {
  margin-top: 25px;
  margin-bottom: 75px;
  text-decoration: none;
- font-family: Lusitana;
+ font-family: Raleway;
 }
 
 .socialicons {
@@ -434,7 +433,7 @@ hr {
   margin-top: 25px;
   margin-bottom: 75px;
   text-decoration: none;
-  font-family: Lusitana;
+  font-family: Raleway;
  }
 
  .socialicons  {
