@@ -173,15 +173,13 @@ color: #00A3A0;
 }
 
 .container6 {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  margin-right: 50px;
-  margin-left: 100px;
-  margin-top: 150px;
-  margin-bottom: 100px;
-
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-left: 140px;
 }
 
 /* container for header of shelfspace */
@@ -547,19 +545,20 @@ li {
 
 
 .Wireframe {
-  width: 490px;
+  width: 470px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
+
 }
 
 .Wireframe2 {
-  width:490px;
+  width:470px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
 }
 
 .Wireframe3 {
-  width:490px;
+  width:470px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
 }
@@ -785,6 +784,7 @@ text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 70px;
+    padding-left: 0;
 
   }
 
@@ -1154,7 +1154,8 @@ text-align: center;
     display: block;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 70px;
+    margin-left: 0;
+    padding-left: 0;
 
   }
 
