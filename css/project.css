@@ -504,6 +504,10 @@ li {
   padding-right: 75px;
 }
 
+
+
+}
+
 .Userflows {
   width:1000px;
   height: auto;
@@ -974,6 +978,11 @@ li {
 display:none;
 }
 
+.Sitemap {
+  width:300px;
+  height: auto;
+}
+
 .Wireframe {
   width: 275px;
   height: auto;
@@ -1333,6 +1342,13 @@ li {
 .Userflows {
 display:none;
 }
+
+.Sitemap {
+  width:600px;
+  height: auto;
+
+}
+
 
 .Wireframe {
   width: 600px;
