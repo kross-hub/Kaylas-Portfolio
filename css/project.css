@@ -276,7 +276,7 @@ grid-template-columns:60% 40%;
   margin-bottom: 100px;
   cursor: pointer;
   font-weight: 300;
-  color: #00A3A0;
+  color: #007A78;
   transition: color 0.4s ease 0s, text-shadow 0.4s ease 0s, box-shadow 0.4s ease 0s;
 }
 
@@ -1002,7 +1002,7 @@ display:none;
   width:275px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 
 .PrefranceTest {
