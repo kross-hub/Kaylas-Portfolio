@@ -132,7 +132,7 @@ a:hover{
 }
 
 .current {
-color: #00A3A0;
+color: #009996;
   }
 
 
@@ -274,7 +274,7 @@ grid-template-columns:60% 40%;
   margin-bottom: 100px;
   cursor: pointer;
   font-weight: 300;
-  color: #00A3A0;
+  color: #009996;
   transition: color 0.4s ease 0s, text-shadow 0.4s ease 0s, box-shadow 0.4s ease 0s;
 }
 
