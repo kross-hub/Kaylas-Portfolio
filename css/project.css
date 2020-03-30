@@ -228,8 +228,8 @@ grid-template-columns:60% 40%;
 .button {
   display:inline-block;
   border-radius: 10px;
-  border-color: #00ADA9;
-  background-color: #00ADA9;
+  border-color: #009996;
+  background-color: #009996;
   padding: 10px 10px ;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -258,8 +258,8 @@ grid-template-columns:60% 40%;
 .buttonone {
   display:inline-block;
   border-radius: 10px;
-  border-color: white;
-  background-color: white;
+  border-color: #332E2F;
+  background-color: #332E2F;
   padding: 10px 10px ;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -274,7 +274,7 @@ grid-template-columns:60% 40%;
   margin-bottom: 100px;
   cursor: pointer;
   font-weight: 300;
-  color: #009996;
+  color: white;
   transition: color 0.4s ease 0s, text-shadow 0.4s ease 0s, box-shadow 0.4s ease 0s;
 }
 
@@ -742,6 +742,8 @@ font-size: 45px;
 
 
 @media screen and (max-width: 575px){
+
+
 
   .container {
     width: 80%;
