@@ -9,6 +9,12 @@ display:block;
 text-align: center;
 }
 
+.container2 p {
+  max-width: 65ex;
+  margin: 0 auto;
+
+}
+
 body {
  margin-top:0px;
  color: #332E2F;
@@ -191,11 +197,12 @@ grid-template-columns:60% 40%;
 
 }
 
-.container8{
-  width:80%;
-  margin:0 auto;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+.container8 {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-column-gap: 130px;
+    margin: 0 auto;
 }
 
 .container10 {
@@ -240,7 +247,7 @@ grid-template-columns:60% 40%;
   font-size: 24px;
   line-height: 32px;
   color: black;
-  margin-top: 100px;
+  margin-top: 30px;
   margin-bottom: 100px;
   cursor: pointer;
   font-weight: 300;
@@ -459,13 +466,7 @@ li {
   }
 
 
-  .spacing {
-    margin-left: 70px;
-  }
 
-.spacing2 {
-  margin-left: 0;
-}
 
 .twocolumns {
   width: 80%;
@@ -489,17 +490,17 @@ li {
 
 
 .Userpersonas {
-  width:100%;
+  width:800px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
-  padding-left: 75px;
+  padding-top: 75px;
 }
 
 .Userpersonas1 {
-  width:100%;
+  width:800px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
-  padding-right: 75px;
+  padding-top: 75px;
 }
 
 
@@ -514,7 +515,7 @@ li {
 }
 
 .Sitemap {
-  width:1000px;
+  width:700px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
   margin-top: 75px;
@@ -522,45 +523,49 @@ li {
 }
 
 .pinterest {
-  width:auto;
-  height: 250px;
+  width:700px;
+  height: auto;
   filter: drop-shadow(0 0 5px #333);
+  padding-bottom: 50px;
 }
 
-.dropbox {
-  width:auto;
-  height: 250px;
-  filter: drop-shadow(0 0 5px #333);
-}
 
 .googledrive {
-  width:auto;
-  height: 250px;
+  width:700px;
+  height: auto;
   filter: drop-shadow(0 0 5px #333);
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
-.Competitors {
-  margin-top: 25px;
+.competitors {
+  margin-top: 75px;
 }
 
 
 .Wireframe {
-  width: 470px;
+  width: 700px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
+  padding-top: 50px;
+  padding-bottom: 50px;
 
 }
 
 .Wireframe2 {
-  width:470px;
+  width:700px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .Wireframe3 {
-  width:470px;
+  width:700px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
+  padding-top: 50px;
+
 }
 
 
@@ -623,7 +628,7 @@ li {
 }
 
 .Styleguide {
-  width: 100%;
+  width: 700px;
   height: 80%;
   margin: 0 auto;
   margin-top: 50px;
@@ -933,21 +938,15 @@ li {
   width:300px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
-.dropbox {
-  width:300px;
-  height: auto;
-  filter: drop-shadow(0 0 5px #333);
-  margin-bottom: 50px;
-}
 
 .googledrive {
   width:300px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 .spacing {
@@ -959,12 +958,17 @@ li {
 }
 
 .Userpersonas {
+  width:300px;
+  padding-top: 10px;
   padding-left: 0;
 }
 
 .Userpersonas1 {
   padding-right: 0;
     padding-bottom: 50px;
+    width:300px;
+    height: auto;
+    padding-top: 10px;
 }
 
 .flowspace {
@@ -1128,6 +1132,7 @@ margin:0 auto;
 display:block;
 text-align: center;
 }
+
 
   .container3 {
     width: 100%;
