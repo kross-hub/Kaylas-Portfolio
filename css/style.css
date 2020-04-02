@@ -172,7 +172,7 @@ hr {
 
 
 .Color-Two {
- color: #FF5E3D
+ color: #FF5E3D;
 }
 
 .strike {
@@ -210,6 +210,8 @@ p {
  margin-bottom: 10px;
  font-family: Lusitana;
  font-style: normal;
+ max-width: 65ex;
+
 }
 
 .button {
@@ -306,10 +308,10 @@ footer ul {
 }
 
 .footernote {
- font-size: 48px;
+ font-size: 32px;
  margin-top: 100px;
  text-decoration: none;
- font-family: Lusitana;
+ font-family: Raleway;
 }
 
 .footernotetwo {
