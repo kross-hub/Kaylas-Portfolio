@@ -104,7 +104,8 @@ nav a{
  text-transform: uppercase;
  font-family: Lusitana;
  font-size: 24px;
-
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
 
 nav a:hover{
@@ -748,7 +749,44 @@ font-size: 45px;
 
 @media screen and (max-width: 575px){
 
+  #sub-navigation-home li.nav-about {
+      display: inline-block;
+      padding-top: 35px;
+      position: relative;
+      padding-right: 0px;
+      padding-bottom: 10px;
+      padding-left: 0px;
+      margin-bottom: 0;
+      font-size: 24px;
+      line-height: 0px;
+      margin-top: 0;
+  }
 
+  #sub-navigation-home li.nav-work {
+    display: inline-block;
+    padding-top: 35px;
+    position: relative;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 0px;
+    margin-top: 0;
+  }
+
+  #sub-navigation-home li.nav-email {
+    display: inline-block;
+    padding-top: 20px;
+    position: relative;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 0px;
+    margin-top: 0;
+  }
 
   .container {
     width: 80%;
@@ -857,8 +895,15 @@ text-align: center;
       margin-top: 100px;
       padding-left: 25px;
     }
+
     .goalsmargin {
         padding-left: 0;
+    }
+
+    .logo{
+     width:1.5%;
+     height: auto;
+     padding: 10px 0;
     }
 
   h1 {
@@ -1053,6 +1098,8 @@ display:none;
 .Styleguide {
   margin-top: 0;
   margin-bottom: 0;
+  width: 300px;
+  height:auto;
 
 }
 
@@ -1301,21 +1348,15 @@ li {
 }
 
 .pinterest {
-  width:200px;
+  width:600px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
   margin-bottom: 50px;
 }
 
-.dropbox {
-  width:200px;
-  height: auto;
-  filter: drop-shadow(0 0 5px #333);
-  margin-bottom: 50px;
-}
 
 .googledrive {
-  width:200px;
+  width:600px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
   margin-bottom: 50px;
@@ -1331,11 +1372,15 @@ li {
 
 .Userpersonas {
   padding-left: 0;
+  width: 600px;
+  height: auto;
 }
 
 .Userpersonas1 {
   padding-right: 0;
     padding-bottom: 50px;
+    width: 600px;
+    height: auto;
 }
 
 .flowspace {
@@ -1422,6 +1467,8 @@ display:none;
 .Styleguide {
   margin-top: 0;
   margin-bottom: 0;
+  width:400px;
+  height: auto;
 
 }
 
@@ -1458,11 +1505,9 @@ display:none;
   margin-bottom: 0;
 }
 
-
-
 .footernote {
  font-size: 32px;
- margin-top: 25px;
+ margin-top: 75px;
  text-decoration: none;
  font-family: Lusitana;
 }
