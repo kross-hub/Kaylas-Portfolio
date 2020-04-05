@@ -1528,7 +1528,14 @@ display:none;
   font-size: 2rem;
 }
 
+}
 
+@media screen and (min-width: 1025px) and (max-width:1250px){
 
+  .Userflows {
+  width: 800px;
+  height: auto;
+  }
 
+}
 }
