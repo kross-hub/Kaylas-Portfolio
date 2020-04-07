@@ -588,7 +588,7 @@ li {
   width: 50%;
   height: auto;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 80px;
   margin-bottom: 80px;
   filter: drop-shadow(0 0 5px #333);
 }
@@ -599,7 +599,7 @@ li {
   width: 50%;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
 }
@@ -608,26 +608,26 @@ li {
   width: 50%;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
 }
 
 
 .Changes-Three-Mobile {
-  width: 100%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
 }
 
 .Solution-Three-Mobile {
-  width: 100%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
 }
@@ -657,19 +657,19 @@ li {
 }
 
 .Painpoint-4 {
-  width: 100%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
 }
 
 .Solution-4 {
-  width: 100%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
   padding-top: 80px;
@@ -677,31 +677,23 @@ li {
 
 
 .Painpoint5mobile {
-  width: 100%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
 }
 
 .Solution5mobile {
-  width: 100%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
   filter: drop-shadow(0 0 5px #333);
 }
 
-.Solution-6 {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  filter: drop-shadow(0 0 5px #333);
-}
 
 
 
