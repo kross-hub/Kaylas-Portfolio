@@ -309,7 +309,7 @@ hr{
 
   h2 {
     font-size: 48px;
-    color: #292929;
+    color: white;
     line-height: 58px;
     font-weight: bold;
     font-family: Lusitana;
@@ -545,32 +545,28 @@ li {
 
 
 .Wireframe {
-  width: 300px;
+  width: 310px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-right: 50px;
 }
 
 .Wireframe2 {
-  width:300px;
+  width:310px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-right: 75px;
 
 }
 
 .Wireframe3 {
-  width:300px;
+  width:310px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-right: 50px;
-
 }
 
 
