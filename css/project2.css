@@ -968,10 +968,10 @@ li {
 
 .finalprototype {
     margin-top: 50px;
-    margin-left: 10px ;
+    margin-left: 80px ;
 }
 
-.pinterest {
+.ohranger {
   width:300px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
@@ -979,7 +979,7 @@ li {
 }
 
 
-.googledrive {
+.recreationgov {
   width:300px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
@@ -1336,7 +1336,7 @@ li {
 
 .finalprototype {
     margin-top: 50px;
-    margin-left: 10px ;
+    margin-left: 162px ;
 }
 
 .pinterest {
@@ -1395,14 +1395,14 @@ display:none;
 
 
 .Wireframe {
-  width: 600px;
+  width: 400px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
   padding-bottom: 50px;
 }
 
 .Wireframe2 {
-  width:600px;
+  width:400px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
   padding-bottom: 50px;
@@ -1410,7 +1410,7 @@ display:none;
 }
 
 .Wireframe3 {
-  width:600px;
+  width:400px;
   height: auto;
   filter: drop-shadow(0 0 5px #333);
   padding-bottom: 50px;
